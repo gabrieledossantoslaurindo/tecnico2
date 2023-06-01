@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+	<!--
     Made with LUME.
 http://lume.io
 -->
@@ -21,7 +22,7 @@ http://lume.io
 
 <!-- Pointer Events polyfill (needed in Safari < 13) -->
 <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
-
+-->
 <script>
 	LUME.defineElements()
 </script>
@@ -103,6 +104,7 @@ http://lume.io
 					:key="i"
 					size-mode="literal proportional"
 					size="120 1 0"
+				
 					:align-point="`${i*0.333} 0 0`"
 					:mount-point="`${i*0.333} 0 0`"
 					color="#444"
@@ -219,8 +221,10 @@ http://lume.io
 
 	function is(el, selector) {
 		if ([].includes.call(document.querySelectorAll(selector), el)) return true
+	
 		return false
 	}
+	-->
 </script>
 </body>
 </html>
