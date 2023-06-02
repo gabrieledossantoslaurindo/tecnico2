@@ -47,5 +47,48 @@ nav {
     border: 2 px solid #000000;
     border-radius: 10px;
 }
-.professores
 
+
+.professores li:hover {
+    border-color: #0fb499;
+}
+
+.professores li :active{
+    border: currentColor #4527ec;
+}
+.professores li:hover h2 {
+    font-size: 34px;
+}
+
+.professores h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.professorea-d{
+    font-size: 18px;
+}
+
+.professores-p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyrght{
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0 ;
+}
+
+.main{
+    width: 940px;
+    margin: 0 auto;
+
+}
